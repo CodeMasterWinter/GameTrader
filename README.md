@@ -1,1 +1,1 @@
-"# GameTrader" 
+# GameTrader
