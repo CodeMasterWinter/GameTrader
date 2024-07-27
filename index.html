@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- stylesheets -->
+
+    <!-- Bootstrap CSS, imported via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- My CSS stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Gametrader - Home</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container-fluid header-container p-0">
+            <nav>
+                <img src="images/logo.png" alt="PressX logo">
+                <ul>
+                    <li class="px-3">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="px-3">
+                        <a href="#" class="nav-link">Shop</a>
+                    </li>
+                    <li class="px-3">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="px-3">
+                        <a href="#" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-container">
+                            <div class="carousel-image">
+                                <img src="images/covers/Marvel's_Spider-Man_2.avif" alt="">
+                            </div>
+                            <div class="carousel-details">
+                                <h2>Marvel's Spider-Man 2</h2>
+                                <p>R 960.00</p>
+                                <a href="#" class="btn carousel-btn">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <div class="carousel-image">
+                                <img src="images/covers/gta.jpg" alt="">
+                            </div>
+                            <div class="carousel-details">
+                                <h2>Grand Theft Auto</h2>
+                                <p>R 540.00</p>
+                                <a href="#" class="btn carousel-btn">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <div class="carousel-image">
+                                <img src="images/covers/Marvel's Spider-Man - Miles Morales.jpg" alt="">
+                            </div>
+                            <div class="carousel-details">
+                                <h2>Spider-Man: Miles Morales</h2>
+                                <p>R 740.00</p>
+                                <a href="#" class="btn carousel-btn">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="featured-sales">
+        <div class="container-xxl sales-container">
+            <h1 class="sales-heading ps-3">Featured Games</h1>
+
+            <!-- The row containing the grid of cards -->
+            <div class="row sales-row">
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/gta.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Grand Theft Auto V</h4>
+                            <p class="card-subtitle">R540.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/forza_motorsport.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Forza Motorsport</h4>
+                            <p class="card-subtitle">R630.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/Red-Dead-Redemption-2.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Red Dead Redemption 2</h4>
+                            <p class="card-subtitle">R570.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/Dragon Ball FighterZ.avif" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Dragon Ball FighterZ</h4>
+                            <p class="card-subtitle">R420.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/Marvel's Avengers.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Marvel's Avengers</h4>
+                            <p class="card-subtitle">R600.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/Marvel's Spider-Man.jpg" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Marvel's Spider-Man</h4>
+                            <p class="card-subtitle">R700.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/Marvel's Spider-Man - Miles Morales.jpg" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Spider-Man: Miles Morales</h4>
+                            <p class="card-subtitle">R740.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/Marvel's_Spider-Man_2.avif" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Marvel's Spider-Man 2</h4>
+                            <p class="card-subtitle">R960.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/Marvel's Guardians of the Galaxy.jpg" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Guardians of the Galaxy</h4>
+                            <p class="card-subtitle">R720.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sales-column col-3">
+                    <div class="sales-card">
+                        <div class="card-image">
+                            <img src="images/covers/Tekken_8.webp" class="card-img-top img-fluid" alt="...">
+                        </div>
+                        <div class="card-body px-3 py-2">
+                            <h4 class="card-title">Tekken 8</h4>
+                            <p class="card-subtitle">R450.00</p>
+                            <a href="#" class="btn card-btn">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container-fluid footer-container">
+            <img src="images/logo.png" alt="PressX logo" class="footer-logo">
+            <form action="post" id="contact-form">
+                <h1>Get in Touch</h1>
+                <div class="form-content row">
+                    <div class="form-block col-6">
+                        <input type="text" name="first_name" id="id_first_name" placeholder="First Name">
+                        <input type="text" name="last_name" id="id_last_name" placeholder="Last Name">
+                    </div>
+                    <div class="form-block col-6">
+                        <input type="text" name="phone" id="id_phone" placeholder="Phone Number">
+                        <input type="email" name="email" id="id_email" placeholder="E-mail Address">
+                    </div>
+                    <div class="form-block submit-block col-6">
+                        <button class="col-6" type="submit" id="id_submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Javascript, imported via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
